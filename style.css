@@ -1,0 +1,188 @@
+body {
+    background-color: #1f2937; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: verdana, sans-serif;
+    margin: 0;
+}
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0;   
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-right: 100px;
+    font-size: 14px;
+    color: #e5e7eb;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #e5e7eb;
+    padding: 50px;
+}
+
+.description .title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+    max-height: auto;
+    margin: 0;
+    padding: 100px;
+    
+}
+
+.hero img {
+    max-width: 600px;
+    height: auto;
+}
+.title, .text {
+    margin: 0;
+}
+
+.left {
+    position: relative;
+}
+
+.description button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 5pt;
+    padding: 8px 28px;
+    border: 0;
+    left: -150px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.pics {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.pics p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info img {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #3882f6;
+    border-radius: 5pt;
+    
+}
+
+.info p {
+    font-size: 8px;
+    color: gray;
+    margin: 0;
+    width: 150px;
+    position: relative;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px;
+
+}
+
+.quote p {
+    font-size: 28px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 50px;
+    padding-top: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.author p {
+    padding: 0 48px 100px 0;
+    text-align: right;
+}
+
+.call_to_action {
+    padding: 100px;
+    background-color: white ;
+}
+
+.container_call {
+    background-color: #3882f6;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5pt;
+}
+
+.container_call button {
+    background-color: #3882f6;
+    border-radius: 5pt;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 28px;
+}
+
+.call .act {
+    color:white;
+    margin: 0;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.call p {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
